@@ -21,11 +21,11 @@ name = ''
 c = 0
 tren = 0
 nomer_tren = 0
-bot = telebot.TeleBot("7638727063:AAGiN1lA5SDPYwwLt3EnYGEwGiE62pONLkg")
+bot = telebot.TeleBot(${{ secrets.bot }})
 bb = 0
 kartinki = 0
 
-HF_API_KEY = "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"
+HF_API_KEY = ${{ secrets.hf_api }}
 MODEL_NAME = "stabilityai/stable-diffusion-xl-base-1.0"
 
 
