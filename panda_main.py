@@ -19,7 +19,7 @@ import sqlite3
 
 from panda_class import PandaBot
 
-bot = telebot.TeleBot("7638727063:AAGiN1lA5SDPYwwLt3EnYGEwGiE62pONLkg")
+bot = telebot.TeleBot(${{ secrets.bot }})
 panda_bot = PandaBot()
 
 
